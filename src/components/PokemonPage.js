@@ -4,7 +4,7 @@ import PokemonForm from "./PokemonForm";
 import Search from "./Search";
 import { Container } from "semantic-ui-react";
 
-function PokemonPage({ pokemon }) {
+function PokemonPage({ onAddPokemon, pokemon }) {
 
   const [search, setSearch] = useState("")
 
@@ -21,7 +21,7 @@ function PokemonPage({ pokemon }) {
     <Container>
       <h1>Pokemon Searcher</h1>
       <br />
-      <PokemonForm/>
+      <PokemonForm onAddPokemon={onAddPokemon}/>
       <br />
       <Search search={search} onSearch={searchPokemon}/>
       <br />

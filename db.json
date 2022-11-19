@@ -1340,6 +1340,12 @@
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
       }
+    },
+    {
+      "name": "bulbasaur",
+      "hp": "70",
+      "sprites": "https://www.japanzon.com/31156-product_large/pokemon-moncolle-ms-11-fushigidane-bulbasaur.jpg",
+      "id": 151
     }
   ]
 }
