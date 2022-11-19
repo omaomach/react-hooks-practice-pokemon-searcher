@@ -22,7 +22,7 @@ function PokemonForm({ onAddPokemon }) {
 
   function handleSubmit(event) {
     event.preventDefault()
-    fetch("http://localhost:3001/pokemon", {
+    fetch("http://localhost:3001/pokemons", {
       method: "POST",
       headers: {
         "content-Type":"application/json",
