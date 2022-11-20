@@ -6,7 +6,7 @@ function App() {
   const [pokemon, setPokemon] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:3001/pokemons")
+    fetch("http://localhost:3001/pokemon?_embed=sprites")
     .then((res) => res.json())
     .then((data) => {
       setPokemon(data)

@@ -1346,6 +1346,11 @@
       "hp": "70",
       "sprites": "https://www.japanzon.com/31156-product_large/pokemon-moncolle-ms-11-fushigidane-bulbasaur.jpg",
       "id": 151
+    },
+    {
+      "name": "abrakadabra",
+      "hp": "70",
+      "id": 152
     }
   ],
   "sprites": [
@@ -2246,6 +2251,12 @@
     {
       "id": 151,
       "pokemonId": 151
+    },
+    {
+      "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+      "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/149.png",
+      "pokemonId": 152,
+      "id": 152
     }
   ]
 }

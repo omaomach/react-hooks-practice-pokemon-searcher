@@ -25,7 +25,7 @@ function PokemonCard({ poke }) {
     <Card onClick={(event) => setFront(front => !front)}>
       <div>
         <div className="image" >
-          <img src={front ? poke.sprites.front : poke.sprites.back} alt="oh no!"/>
+          <img src={front ? poke.sprites[0].front : poke.sprites[0].back} alt="oh no!"/>
         </div>
         <div className="content">
           <div className="header">{poke.name}</div>
